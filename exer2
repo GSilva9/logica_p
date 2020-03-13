@@ -1,0 +1,9 @@
+var prompt  = require('prompt-sync')()
+
+var carros = prompt ('Digite o modelo do carro ')
+var valor = prompt  ('Digite o valor do carro R$ ')
+
+var entrada = (valor/2)
+var vezes = (entrada/12)
+
+console.log('Promoção do ' + carros + ' com Entrada de R$ ' + entrada + ' e 12x de R$ ' + vezes)
