@@ -1,0 +1,8 @@
+var prompt  = require('prompt-sync')()
+
+var nome = prompt('Nome ')
+var salario = prompt('Salário R$ ')
+
+var novoSalario = salario * 1.10
+
+console.log('Novo Salário R$ ' + novoSalario)
