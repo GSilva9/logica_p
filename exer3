@@ -1,0 +1,7 @@
+var prompt = require('prompt-sync')()
+
+var num = Number(prompt('Número: ')) //Converter em número (quando for soma de var)
+
+var dobro = (num + num)
+
+console.log('Dobro ' + dobro)
