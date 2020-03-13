@@ -1,0 +1,9 @@
+var prompt = require('prompt-sync')()
+
+var vizi = Number(prompt("Digite um número "))
+
+var vizi1 = (vizi - 1)
+var vizi2 = (vizi + 1)
+
+console.log("Número " + vizi)
+console.log("Vizinhos " + vizi1 + " e " + vizi2)
